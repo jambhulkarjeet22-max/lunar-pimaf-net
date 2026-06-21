@@ -1,41 +1,26 @@
 # LUNAR OS — Physics-Informed Ice Detection Engine
-# Dependency placeholders — pin versions before production deployment.
 # Install: pip install -r requirements.txt
 
-# ── Core scientific computing ───────────────────────────────────────────────
-# numpy
-# scipy
-# pandas
+# Core scientific computing
+numpy>=2.0
+scipy>=1.14
+pandas>=2.2
 
-# ── Deep learning frameworks ────────────────────────────────────────────────
-# torch
-# torchvision
+# Deep learning
+torch>=2.5
+torchvision>=0.20
 
-# ── Computer vision & geospatial ────────────────────────────────────────────
-# opencv-python
-# rasterio
-# xarray
+# Geospatial I/O
+rasterio>=1.4
+rioxarray>=0.17
+xarray>=2024.10
+pyproj>=3.7
 
-# ── Physics-informed & numerical methods ────────────────────────────────────
-# deepxde
-# fenics  # or equivalent PDE solver
+# Optional export (preprocessing Zarr export)
+zarr>=3.0
 
-# ── ML utilities & experiment tracking ──────────────────────────────────────
-# scikit-learn
-# mlflow
-# hydra-core
-# omegaconf
-
-# ── Visualization ───────────────────────────────────────────────────────────
-# matplotlib
-# seaborn
-
-# ── Development & testing ───────────────────────────────────────────────────
-# pytest
-# pytest-cov
-# ruff
-# mypy
-
-# ── Configuration & environment ─────────────────────────────────────────────
-# python-dotenv
-# pyyaml
+# Development & testing
+pytest>=8.3
+pytest-cov>=6.0
+tensorboard>=2.18
+matplotlib>=3.9

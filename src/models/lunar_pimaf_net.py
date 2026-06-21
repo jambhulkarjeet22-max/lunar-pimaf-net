@@ -111,6 +111,7 @@ class LunarPIMAFOutput(TypedDict):
     total_uncertainty: torch.Tensor
     confidence: torch.Tensor
     physics_residuals: PhysicsResiduals
+    latent_physics: torch.Tensor
     decoder_features: torch.Tensor
     fused_pyramid: FusedPyramidFeatures
 
@@ -681,6 +682,7 @@ class LunarPIMAFNet(nn.Module):
             total_uncertainty=predictions.total_uncertainty,
             confidence=predictions.confidence,
             physics_residuals=physics_out["residuals"],
+            latent_physics=physics_out["latent_physics"],
             decoder_features=features.decoder_features,
             fused_pyramid=features.fused_pyramid,
         )
