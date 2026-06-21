@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LUNAR OS — Physics-Informed Ice Detection Engine
 
 > Research-grade ML architecture for detecting and characterizing subsurface and surface ice deposits on the lunar surface using physics-informed deep learning.
@@ -203,3 +204,7 @@ TBD — specify license before public release.
 ## Contact
 
 LUNAR OS Research Team — ice-detection@lunar-os.dev *(placeholder)*
+=======
+# lunar-pimaf-net
+Physics-Informed Multi-Sensor Attention Fusion Network for Lunar Subsurface Ice Detection using Multi-Modal Remote Sensing Data.
+>>>>>>> d7c08845991c01ae5d190a4d07d292c8a524ea29
