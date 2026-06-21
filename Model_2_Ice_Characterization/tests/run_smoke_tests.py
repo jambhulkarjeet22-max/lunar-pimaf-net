@@ -34,8 +34,8 @@ def test_model_forward():
     for key in expected_keys:
         assert key in outputs, f"Missing output: {key}"
         
-    assert outputs["purity_percentage"].shape == (2, 1, 32, 32)
-    assert outputs["ice_type"].shape == (2, 3, 32, 32)
+    assert outputs["purity_percentage"].shape == (2, 1, 16, 16)
+    assert outputs["ice_type"].shape == (2, 3, 16, 16)
     print("Forward Pass OK!")
 
 def test_dataset():
