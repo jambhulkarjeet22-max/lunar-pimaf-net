@@ -1,0 +1,111 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Virtual environments & environment files ────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Jupyter Notebook ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── IDE & editor ────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ── OS artifacts ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── ML / data artifacts ─────────────────────────────────────────────────────
+data/raw/**
+data/processed/**
+data/external/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+datasets/
+checkpoints/
+saved_models/**
+!saved_models/.gitkeep
+
+# Model weights & serialized artifacts
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+*.bin
+*.mar
+
+# ── Logs & experiment tracking ───────────────────────────────────────────────
+logs/**
+!logs/.gitkeep
+*.log
+mlruns/
+wandb/
+tensorboard/
+outputs/
+runs/
+lightning_logs/
+
+# ── Testing & coverage ──────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ── Type checking & linting ─────────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ── Documentation builds ────────────────────────────────────────────────────
+docs/_build/
+site/

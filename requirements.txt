@@ -1,0 +1,41 @@
+# LUNAR OS — Physics-Informed Ice Detection Engine
+# Dependency placeholders — pin versions before production deployment.
+# Install: pip install -r requirements.txt
+
+# ── Core scientific computing ───────────────────────────────────────────────
+# numpy
+# scipy
+# pandas
+
+# ── Deep learning frameworks ────────────────────────────────────────────────
+# torch
+# torchvision
+
+# ── Computer vision & geospatial ────────────────────────────────────────────
+# opencv-python
+# rasterio
+# xarray
+
+# ── Physics-informed & numerical methods ────────────────────────────────────
+# deepxde
+# fenics  # or equivalent PDE solver
+
+# ── ML utilities & experiment tracking ──────────────────────────────────────
+# scikit-learn
+# mlflow
+# hydra-core
+# omegaconf
+
+# ── Visualization ───────────────────────────────────────────────────────────
+# matplotlib
+# seaborn
+
+# ── Development & testing ───────────────────────────────────────────────────
+# pytest
+# pytest-cov
+# ruff
+# mypy
+
+# ── Configuration & environment ─────────────────────────────────────────────
+# python-dotenv
+# pyyaml
