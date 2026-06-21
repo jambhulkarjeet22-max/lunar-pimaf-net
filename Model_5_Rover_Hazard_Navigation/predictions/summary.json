@@ -1,0 +1,58 @@
+{
+  "checkpoint": "checkpoints\\best.pt",
+  "epoch": 1,
+  "keys": [
+    "traversability_score",
+    "crater_hazard_probability",
+    "boulder_hazard_probability",
+    "slope_hazard_score",
+    "navigation_cost_map",
+    "rover_safety_score"
+  ],
+  "shapes": {
+    "traversability_score": [
+      4,
+      1,
+      64,
+      64
+    ],
+    "crater_hazard_probability": [
+      4,
+      1,
+      64,
+      64
+    ],
+    "boulder_hazard_probability": [
+      4,
+      1,
+      64,
+      64
+    ],
+    "slope_hazard_score": [
+      4,
+      1,
+      64,
+      64
+    ],
+    "navigation_cost_map": [
+      4,
+      1,
+      64,
+      64
+    ],
+    "rover_safety_score": [
+      4,
+      1,
+      64,
+      64
+    ]
+  },
+  "files": {
+    "traversability_score": "traversability_map.npy",
+    "crater_hazard_probability": "crater_hazard_map.npy",
+    "boulder_hazard_probability": "boulder_hazard_map.npy",
+    "slope_hazard_score": "slope_hazard_map.npy",
+    "navigation_cost_map": "navigation_cost_map.npy",
+    "rover_safety_score": "rover_safety_map.npy"
+  }
+}
