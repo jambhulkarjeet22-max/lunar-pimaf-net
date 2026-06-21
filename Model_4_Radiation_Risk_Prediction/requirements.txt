@@ -1,0 +1,4 @@
+﻿# Model 4 — Radiation Risk Prediction
+numpy>=2.0
+torch>=2.5
+matplotlib>=3.9

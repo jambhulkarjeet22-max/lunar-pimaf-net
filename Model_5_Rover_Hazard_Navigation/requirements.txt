@@ -1,0 +1,4 @@
+﻿# Model 5 — Rover Hazard Navigation
+numpy>=2.0
+torch>=2.5
+matplotlib>=3.9

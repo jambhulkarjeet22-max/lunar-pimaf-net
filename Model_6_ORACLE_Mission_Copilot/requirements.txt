@@ -1,0 +1,4 @@
+﻿# Model 6 — ORACLE Mission Copilot
+numpy>=2.0
+torch>=2.5
+matplotlib>=3.9
