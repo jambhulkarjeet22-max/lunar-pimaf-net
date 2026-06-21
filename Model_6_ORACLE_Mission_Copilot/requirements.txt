@@ -1,4 +1,8 @@
-﻿# Model 6 — ORACLE Mission Copilot
+# Model 6 — ORACLE Mission Copilot
 numpy>=2.0
 torch>=2.5
 matplotlib>=3.9
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pydantic>=2.0
+httpx>=0.24.0
