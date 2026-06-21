@@ -1,0 +1,43 @@
+{
+  "checkpoint": "checkpoints\\best.pt",
+  "epoch": 1,
+  "keys": [
+    "radiation_dose_rate",
+    "radiation_risk_score",
+    "shielding_effectiveness_score",
+    "habitat_safety_score",
+    "final_radiation_hazard_map"
+  ],
+  "shapes": {
+    "radiation_dose_rate": [
+      4,
+      1,
+      64,
+      64
+    ],
+    "radiation_risk_score": [
+      4,
+      1,
+      64,
+      64
+    ],
+    "shielding_effectiveness_score": [
+      4,
+      1,
+      64,
+      64
+    ],
+    "habitat_safety_score": [
+      4,
+      1,
+      64,
+      64
+    ],
+    "final_radiation_hazard_map": [
+      4,
+      1,
+      64,
+      64
+    ]
+  }
+}
